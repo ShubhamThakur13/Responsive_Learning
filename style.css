@@ -672,18 +672,23 @@ main .viewport-7 .pages .last .items {
     flex-direction: row;
   }
   main .viewport-7 .bottom {
-    width: 50%;
+    width: 30%;
+    justify-content: space-between;
   }
   main .viewport-7 .bottom .title {
     display: flex;
-    justify-content: center;
   }
   main .viewport-7 .bottom .social {
     justify-content: space-around;
   }
   main .viewport-7 .pages {
-    width: 50%;
+    width: 70%;
     flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  main .viewport-7 .pages .first .btn {
+    margin-top: 4rem;
   }
   main .viewport-7-5 .top {
     padding: 4rem;

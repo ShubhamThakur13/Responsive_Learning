@@ -859,10 +859,10 @@ main {
         flex-direction: row;
 
         .bottom{
-            width: 50%;
+            width: 30%;
+            justify-content: space-between;
             .title{
                 display: flex;
-                justify-content: center;
             }
             .social{
                 justify-content: space-around;
@@ -870,8 +870,16 @@ main {
         }
 
         .pages{
-            width: 50%;
+            width: 70%;
             flex-direction: row;
+            justify-content: space-around;
+            padding: 1rem;
+
+            .first{
+                .btn{
+                    margin-top: 4rem;
+                }
+            }
         }
     }
 
