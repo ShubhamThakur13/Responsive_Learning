@@ -61,12 +61,13 @@ main .viewport-1 .bottom .text p {
   padding-bottom: 1.5rem;
 }
 main .viewport-1 .bottom .text .btn .down {
-  width: 0.5rem;
   border: 1px solid #999999;
   background-color: #292929;
   border-radius: 50%;
   padding: 0.5rem;
-  font-size: 1rem;
+}
+main .viewport-1 .bottom .text .btn .down i {
+  font-size: 16px;
 }
 main .viewport-1 .bottom .text .btn .content {
   text-transform: uppercase;
@@ -78,7 +79,8 @@ main .viewport-2 {
   width: 100%;
   text-align: center;
 }
-main .viewport-2 .top, main .viewport-2 .bottom {
+main .viewport-2 .top,
+main .viewport-2 .bottom {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -226,6 +228,10 @@ main .viewport-5 .cart1 .top .icon p {
           backdrop-filter: blur(5px);
   width: -moz-fit-content;
   width: fit-content;
+  text-align: center;
+}
+main .viewport-5 .cart1 .top .icon p i {
+  font-size: 1.2rem;
 }
 main .viewport-5 .cart1 .bottom {
   padding: 1rem;
@@ -274,6 +280,10 @@ main .viewport-5 .cart2 .top .icon p {
           backdrop-filter: blur(5px);
   width: -moz-fit-content;
   width: fit-content;
+  text-align: center;
+}
+main .viewport-5 .cart2 .top .icon p i {
+  font-size: 1.2rem;
 }
 main .viewport-5 .cart2 .bottom {
   padding: 1rem;
@@ -322,6 +332,10 @@ main .viewport-5 .cart3 .top .icon p {
           backdrop-filter: blur(5px);
   width: -moz-fit-content;
   width: fit-content;
+  text-align: center;
+}
+main .viewport-5 .cart3 .top .icon p i {
+  font-size: 1.2rem;
 }
 main .viewport-5 .cart3 .bottom {
   padding: 1rem;
@@ -340,12 +354,239 @@ main .viewport-5 .cart3 .bottom .text h1 {
   font-weight: 100;
   color: white;
 }
+main .viewport-6 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+main .viewport-6 .top {
+  display: flex;
+  flex-direction: column;
+}
+main .viewport-6 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+  opacity: 0.6;
+}
+main .viewport-6 .bottom {
+  display: flex;
+  flex-direction: column;
+  background-color: #1E1E1E;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+main .viewport-6 .bottom .title {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .viewport-6 .bottom .title p {
+  text-transform: uppercase;
+  color: #797979;
+}
+main .viewport-6 .bottom .title h1 {
+  font-weight: 200;
+  text-transform: uppercase;
+  width: 80%;
+}
+main .viewport-6 .bottom .text {
+  display: flex;
+  flex-direction: column;
+}
+main .viewport-6 .bottom .text .lastbtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .viewport-6 .bottom .text .lastbtn .arrow {
+  padding: 0.5rem;
+  border: 1px solid #6E6D6B;
+  border-radius: 50%;
+}
+main .viewport-6 .bottom .text .lastbtn p {
+  text-transform: uppercase;
+}
+main .viewport-7-5 {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem 1rem 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+main .viewport-7-5 .top {
+  background-color: #CEBD63;
+  color: #1E1E1E;
+  padding: 2rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .viewport-7-5 .top .text {
+  width: 80%;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+main .viewport-7-5 .top .text .title {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .viewport-7-5 .top .btn {
+  text-align: center;
+}
+main .viewport-7-5 .top .btn button {
+  padding: 0.7rem 3rem;
+  border-radius: 0.4rem;
+  background-color: #1E1E1E;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+}
+main .viewport-7 {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem;
+  width: 100%;
+  gap: 1rem;
+}
+main .viewport-7 .top {
+  background-color: #CEBD63;
+  color: #1E1E1E;
+  padding: 2rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .viewport-7 .top .text {
+  width: 80%;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+main .viewport-7 .top .text .title {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+main .viewport-7 .top .btn {
+  text-align: center;
+}
+main .viewport-7 .top .btn button {
+  padding: 0.7rem 3rem;
+  border-radius: 0.4rem;
+  background-color: #1E1E1E;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+}
+main .viewport-7 .bottom {
+  display: flex;
+  flex-direction: column;
+  background-color: #1E1E1E;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 0.7rem;
+}
+main .viewport-7 .bottom .title h2 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+main .viewport-7 .bottom .social {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1rem;
+}
+main .viewport-7 .bottom .social .icon1 {
+  display: flex;
+  gap: 1rem;
+}
+main .viewport-7 .bottom .social .icon2 {
+  display: flex;
+  gap: 1rem;
+}
+main .viewport-7 .bottom .social .icon3 {
+  display: flex;
+  gap: 1rem;
+}
+main .viewport-7 .bottom .social .icon4 {
+  display: flex;
+  gap: 1rem;
+}
+main .viewport-7 .pages {
+  display: flex;
+  flex-direction: column;
+  background-color: #1E1E1E;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 0.7rem;
+}
+main .viewport-7 .pages .first {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+main .viewport-7 .pages .first .title p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+main .viewport-7 .pages .first .items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  color: #797979;
+}
+main .viewport-7 .pages .first .btn button {
+  background-color: #CEBD63;
+  border: none;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  font-family: "Alvy";
+  border-radius: 0.4rem;
+}
+main .viewport-7 .pages .second {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+main .viewport-7 .pages .second .title p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+main .viewport-7 .pages .second .items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  color: #797979;
+}
+main .viewport-7 .pages .last {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+main .viewport-7 .pages .last .title p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+main .viewport-7 .pages .last .items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  color: #797979;
+}
 
 @media (min-width: 900px) {
   main .viewport-1 {
     flex-direction: row;
   }
-  main .viewport-1 .top, main .viewport-1 .bottom {
+  main .viewport-1 .top,
+  main .viewport-1 .bottom {
     width: 50%;
   }
   main .viewport-1 .bottom {
@@ -359,13 +600,15 @@ main .viewport-5 .cart3 .bottom .text h1 {
   main .viewport-1 .bottom .text .btn {
     margin-bottom: 1rem;
   }
-  main .viewport-2 .top, main .viewport-2 .bottom {
+  main .viewport-2 .top,
+  main .viewport-2 .bottom {
     flex-direction: row;
   }
   main .viewport-3 {
     flex-direction: row-reverse;
   }
-  main .viewport-3 .top, main .viewport-3 .bottom {
+  main .viewport-3 .top,
+  main .viewport-3 .bottom {
     width: 50%;
   }
   main .viewport-3 .bottom {
@@ -382,7 +625,8 @@ main .viewport-5 .cart3 .bottom .text h1 {
   main .viewport-4 {
     flex-direction: row;
   }
-  main .viewport-4 .top, main .viewport-4 .bottom {
+  main .viewport-4 .top,
+  main .viewport-4 .bottom {
     width: 50%;
   }
   main .viewport-4 .bottom {
@@ -412,5 +656,50 @@ main .viewport-5 .cart3 .bottom .text h1 {
   }
   main .viewport-5-1 .second {
     display: block;
+  }
+  main .viewport-6 {
+    flex-direction: row;
+  }
+  main .viewport-6 .top,
+  main .viewport-6 .bottom {
+    width: 50%;
+  }
+  main .viewport-6 .bottom {
+    padding: 3rem;
+    justify-content: space-between;
+  }
+  main .viewport-7 {
+    flex-direction: row;
+  }
+  main .viewport-7 .bottom {
+    width: 50%;
+  }
+  main .viewport-7 .bottom .title {
+    display: flex;
+    justify-content: center;
+  }
+  main .viewport-7 .bottom .social {
+    justify-content: space-around;
+  }
+  main .viewport-7 .pages {
+    width: 50%;
+    flex-direction: row;
+  }
+  main .viewport-7-5 .top {
+    padding: 4rem;
+    gap: 3rem;
+  }
+  main .viewport-7-5 .top .text > p {
+    font-size: 4rem;
+    align-items: center;
+  }
+  main .viewport-7-5 .top .btn {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+@media (min-width: 1200px) {
+  main .viewport-7-5 .top {
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */
