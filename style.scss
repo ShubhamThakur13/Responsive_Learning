@@ -222,7 +222,7 @@ main {
         }
     }
 
-        .viewport-5-1{
+    .viewport-5-1{
         width: 100%;
         padding: 2rem;
         display: flex;
@@ -251,7 +251,7 @@ main {
 
         .cart1{
             width: 100%;
-            background-image: url(/cart1.webp);
+            background-image: url(./Carts/cart1.webp);
             aspect-ratio: 1/1;
             background-position: center;
             background-size: cover;
@@ -305,8 +305,7 @@ main {
 
         .cart2{
             width: 100%;
-            background-image: url(/cart2.webp);
-            padding: 0rem 1rem;
+            background: url(Carts/cart2.webp);
             aspect-ratio: 1/1;
             background-position: center;
             background-size: cover;
@@ -361,8 +360,7 @@ main {
 
         .cart3{
             width: 100%;
-            background-image: url(/cart3.webp);
-            padding: 0rem 1rem;
+            background: url(Carts/cart3.webp);
             aspect-ratio: 1/1;
             background-position: center;
             background-size: cover;

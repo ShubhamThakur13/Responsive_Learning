@@ -198,7 +198,7 @@ main .viewport-5 {
 }
 main .viewport-5 .cart1 {
   width: 100%;
-  background-image: url(/cart1.webp);
+  background-image: url(./Carts/cart1.webp);
   aspect-ratio: 1/1;
   background-position: center;
   background-size: cover;
@@ -246,8 +246,7 @@ main .viewport-5 .cart1 .bottom .text h1 {
 }
 main .viewport-5 .cart2 {
   width: 100%;
-  background-image: url(/cart2.webp);
-  padding: 0rem 1rem;
+  background: url(Carts/cart2.webp);
   aspect-ratio: 1/1;
   background-position: center;
   background-size: cover;
@@ -295,8 +294,7 @@ main .viewport-5 .cart2 .bottom .text h1 {
 }
 main .viewport-5 .cart3 {
   width: 100%;
-  background-image: url(/cart3.webp);
-  padding: 0rem 1rem;
+  background: url(Carts/cart3.webp);
   aspect-ratio: 1/1;
   background-position: center;
   background-size: cover;
