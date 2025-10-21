@@ -31,10 +31,51 @@ main {
         max-width: 1900px;
     }
 
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+
+
+        .left{
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+
+        .nav{
+            display: none;
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+
+            button{
+                padding: 1rem 2rem;
+                font-size: 1rem;
+                text-transform: uppercase;
+                border-radius: 0.4rem;
+                background-color: #CEBD63;
+                border: none;
+            }
+
+            i{
+                padding: 0.7rem;
+                font-size: 2rem;
+                background-color:#1E1E1E63;
+                border-radius: 0.4rem;
+            }
+        }
+    }
+
     .viewport-1 {
         display: flex;
         flex-direction: column;
-        padding: 3rem 1rem;
+        padding: 0rem 1rem 3rem 1rem;
         gap: 1rem;
 
         .top {
@@ -469,6 +510,7 @@ main {
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;
+
                 p {
                     text-transform: uppercase;
                     color: #797979;
@@ -506,14 +548,14 @@ main {
     }
 
 
-    .viewport-7-5{
-          display: flex;
+    .viewport-7-5 {
+        display: flex;
         flex-direction: column;
         padding: 0rem 1rem 1rem 1rem;
         width: 100%;
         gap: 1rem;
 
-        .top{
+        .top {
             background-color: #CEBD63;
             color: #1E1E1E;
             padding: 2rem;
@@ -522,29 +564,29 @@ main {
             flex-direction: column;
             gap: 1rem;
 
-            .text{
+            .text {
                 width: 80%;
                 font-weight: 100;
                 text-transform: uppercase;
                 font-size: 2.5rem;
 
-                .title{
-                text-transform: uppercase;
-                font-size: 1rem;
+                .title {
+                    text-transform: uppercase;
+                    font-size: 1rem;
 
-            }
+                }
             }
 
-            .btn{
+            .btn {
                 text-align: center;
 
-                button{
-                padding: 0.7rem 3rem;
-                border-radius: 0.4rem;
-                background-color: #1E1E1E;
-                color: white;
-                text-transform: uppercase;
-                border: none;
+                button {
+                    padding: 0.7rem 3rem;
+                    border-radius: 0.4rem;
+                    background-color: #1E1E1E;
+                    color: white;
+                    text-transform: uppercase;
+                    border: none;
                 }
 
             }
@@ -553,14 +595,14 @@ main {
 
     }
 
-    .viewport-7{
+    .viewport-7 {
         display: flex;
         flex-direction: column;
         padding: 0rem 1rem;
         width: 100%;
         gap: 1rem;
 
-        .top{
+        .top {
             background-color: #CEBD63;
             color: #1E1E1E;
             padding: 2rem;
@@ -569,35 +611,35 @@ main {
             flex-direction: column;
             gap: 1rem;
 
-            .text{
+            .text {
                 width: 80%;
                 font-weight: 100;
                 text-transform: uppercase;
                 font-size: 2.5rem;
 
-                .title{
-                text-transform: uppercase;
-                font-size: 1rem;
+                .title {
+                    text-transform: uppercase;
+                    font-size: 1rem;
 
-            }
+                }
             }
 
-            .btn{
+            .btn {
                 text-align: center;
 
-                button{
-                padding: 0.7rem 3rem;
-                border-radius: 0.4rem;
-                background-color: #1E1E1E;
-                color: white;
-                text-transform: uppercase;
-                border: none;
+                button {
+                    padding: 0.7rem 3rem;
+                    border-radius: 0.4rem;
+                    background-color: #1E1E1E;
+                    color: white;
+                    text-transform: uppercase;
+                    border: none;
                 }
 
             }
         }
 
-        .bottom{
+        .bottom {
             display: flex;
             flex-direction: column;
             background-color: #1E1E1E;
@@ -605,35 +647,35 @@ main {
             gap: 2rem;
             border-radius: 0.7rem;
 
-            .title{
-                h2{
-                text-transform: uppercase;
-                font-weight: 200;
+            .title {
+                h2 {
+                    text-transform: uppercase;
+                    font-weight: 200;
                 }
             }
 
-            .social{
+            .social {
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;
                 font-size: 1rem;
 
-                .icon1{
+                .icon1 {
                     display: flex;
                     gap: 1rem;
                 }
 
-                .icon2{
+                .icon2 {
                     display: flex;
                     gap: 1rem;
                 }
 
-                .icon3{
+                .icon3 {
                     display: flex;
                     gap: 1rem;
                 }
 
-                .icon4{
+                .icon4 {
                     display: flex;
                     gap: 1rem;
                 }
@@ -642,7 +684,7 @@ main {
         }
 
 
-        .pages{
+        .pages {
             display: flex;
             flex-direction: column;
             background-color: #1E1E1E;
@@ -650,19 +692,19 @@ main {
             gap: 2rem;
             border-radius: 0.7rem;
 
-            .first{
+            .first {
                 display: flex;
                 gap: 1rem;
                 flex-direction: column;
 
-                .title{
-                    p{
+                .title {
+                    p {
                         font-size: 1.5rem;
                         text-transform: uppercase;
                     }
                 }
 
-                .items{
+                .items {
                     display: flex;
                     flex-direction: column;
                     gap: 0.5rem;
@@ -670,9 +712,9 @@ main {
                     color: #797979;
                 }
 
-                .btn{
-                    button{
-                        background-color:#CEBD63;
+                .btn {
+                    button {
+                        background-color: #CEBD63;
                         border: none;
                         padding: 0.7rem 2rem;
                         font-size: 1rem;
@@ -682,19 +724,19 @@ main {
                 }
             }
 
-            .second{
-                 display: flex;
+            .second {
+                display: flex;
                 gap: 1rem;
                 flex-direction: column;
 
-                .title{
-                    p{
+                .title {
+                    p {
                         font-size: 1.5rem;
                         text-transform: uppercase;
                     }
                 }
 
-                .items{
+                .items {
                     display: flex;
                     flex-direction: column;
                     gap: 0.5rem;
@@ -704,20 +746,20 @@ main {
 
             }
 
-            .last{
+            .last {
 
-                 display: flex;
+                display: flex;
                 gap: 1rem;
                 flex-direction: column;
 
-                .title{
-                    p{
+                .title {
+                    p {
                         font-size: 1.5rem;
                         text-transform: uppercase;
                     }
                 }
 
-                .items{
+                .items {
                     display: flex;
                     flex-direction: column;
                     gap: 0.5rem;
@@ -727,12 +769,57 @@ main {
 
             }
         }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .footer1 {
+                background-color: #1E1E1E;
+                padding: 2rem;
+                border-radius: 0.7rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                align-items: center;
+                text-transform: uppercase;
+
+            }
+
+            .footer2 {
+                display: flex;
+                gap: 1rem;
+            }
+        }
     }
 }
 
-
 @media (min-width:900px) {
     main {
+
+        header{
+            .right{
+
+                i{
+                    display: none;
+                }
+
+                .nav{
+                    display: block;
+                    display: flex;
+                    gap: 0.5rem;
+
+                    p{
+                        background-color: #1E1E1E;
+                        padding: 1rem;
+                        border-radius: 0.7rem;
+                        font-size: 1rem;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
 
         .viewport-1 {
             flex-direction: row;
@@ -855,61 +942,72 @@ main {
             }
         }
 
-    .viewport-7{
-        flex-direction: row;
-
-        .bottom{
-            width: 30%;
-            justify-content: space-between;
-            .title{
-                display: flex;
-            }
-            .social{
-                justify-content: space-around;
-            }
-        }
-
-        .pages{
-            width: 70%;
+        .viewport-7 {
             flex-direction: row;
-            justify-content: space-around;
-            padding: 1rem;
+            display: grid;
+            grid-template-columns: 30% 1fr;
+            grid-template-rows: 75% 1fr;
+            grid-template-areas: "bottom pages"
+            "bottom footer";
 
-            .first{
-                .btn{
-                    margin-top: 4rem;
+            .bottom {
+                justify-content: space-between;
+                grid-area: bottom;
+
+                .title {
+                    display: flex;
+                }
+
+                .social {
+                    justify-content: space-around;
+                }
+            }
+
+            .pages {
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 1rem;
+                grid-area: pages;
+
+                .first {
+                    .btn {
+                        margin-top: 4rem;
+                    }
                 }
             }
         }
-    }
 
-    .viewport-7-5{
-        .top{
-            padding: 4rem;
-                    gap: 3rem;
-            
-            .text>p{
-                font-size: 4rem;
-                align-items: center;
-            }
+        .viewport-7-5 {
+            .top {
+                padding: 4rem;
+                gap: 3rem;
 
-            .btn{
-                display: flex;
-                align-items: flex-end;
+                .text>p {
+                    font-size: 4rem;
+                    align-items: center;
+                }
+
+                .btn {
+                    display: flex;
+                    align-items: flex-end;
+                }
             }
         }
-    }
+
+        .footer {
+            flex-direction: row;
+        }
     }
 
 }
 
 @media (min-width:1200px) {
-    main{
-    .viewport-7-5{
-        .top{
-            flex-direction: row;
+    main {
+        .viewport-7-5 {
+            .top {
+                flex-direction: row;
+            }
+
         }
-        
     }
-}
 }

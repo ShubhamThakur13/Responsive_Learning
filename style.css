@@ -27,10 +27,43 @@ main {
 main section {
   max-width: 1900px;
 }
+main header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+main header .left {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+main header .nav {
+  display: none;
+}
+main header .right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main header .right button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  background-color: #CEBD63;
+  border: none;
+}
+main header .right i {
+  padding: 0.7rem;
+  font-size: 2rem;
+  background-color: rgba(30, 30, 30, 0.3882352941);
+  border-radius: 0.4rem;
+}
 main .viewport-1 {
   display: flex;
   flex-direction: column;
-  padding: 3rem 1rem;
+  padding: 0rem 1rem 3rem 1rem;
   gap: 1rem;
 }
 main .viewport-1 .top img {
@@ -580,8 +613,42 @@ main .viewport-7 .pages .last .items {
   text-transform: uppercase;
   color: #797979;
 }
+main .viewport-7 .footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .viewport-7 .footer .footer1 {
+  background-color: #1E1E1E;
+  padding: 2rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-transform: uppercase;
+}
+main .viewport-7 .footer .footer2 {
+  display: flex;
+  gap: 1rem;
+}
 
 @media (min-width: 900px) {
+  main header .right i {
+    display: none;
+  }
+  main header .right .nav {
+    display: block;
+    display: flex;
+    gap: 0.5rem;
+  }
+  main header .right .nav p {
+    background-color: #1E1E1E;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
   main .viewport-1 {
     flex-direction: row;
   }
@@ -670,10 +737,14 @@ main .viewport-7 .pages .last .items {
   }
   main .viewport-7 {
     flex-direction: row;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 75% 1fr;
+    grid-template-areas: "bottom pages" "bottom footer";
   }
   main .viewport-7 .bottom {
-    width: 30%;
     justify-content: space-between;
+    grid-area: bottom;
   }
   main .viewport-7 .bottom .title {
     display: flex;
@@ -682,10 +753,10 @@ main .viewport-7 .pages .last .items {
     justify-content: space-around;
   }
   main .viewport-7 .pages {
-    width: 70%;
     flex-direction: row;
     justify-content: space-around;
     padding: 1rem;
+    grid-area: pages;
   }
   main .viewport-7 .pages .first .btn {
     margin-top: 4rem;
@@ -701,6 +772,9 @@ main .viewport-7 .pages .last .items {
   main .viewport-7-5 .top .btn {
     display: flex;
     align-items: flex-end;
+  }
+  main .footer {
+    flex-direction: row;
   }
 }
 @media (min-width: 1200px) {
